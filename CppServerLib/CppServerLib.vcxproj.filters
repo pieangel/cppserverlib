@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\asio">
+      <UniqueIdentifier>{5ef00b90-1cc2-4f6a-986b-8d7a3a21545e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ws">
+      <UniqueIdentifier>{9e8d4ed8-5469-4320-b4cc-cae73cfe3e6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\http">
+      <UniqueIdentifier>{411fb286-fa21-436e-9750-f2a3eb070456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\asio">
+      <UniqueIdentifier>{0910eb19-7599-4988-9be9-ec6b97813910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ws">
+      <UniqueIdentifier>{327a2d67-c324-4809-a2a5-0393d488453b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\http">
+      <UniqueIdentifier>{c85f97ee-c0b2-4a9a-9329-b38e07f3dd53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\asio\asio.h">
+      <Filter>Header Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\asio\memory.h">
+      <Filter>Header Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\asio\service.h">
+      <Filter>Header Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\asio\ssl_client.h">
+      <Filter>Header Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\asio\ssl_context.h">
+      <Filter>Header Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\asio\ssl_server.h">
+      <Filter>Header Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\asio\ssl_session.h">
+      <Filter>Header Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\asio\tcp_client.h">
+      <Filter>Header Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\asio\tcp_resolver.h">
+      <Filter>Header Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\asio\tcp_server.h">
+      <Filter>Header Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\asio\tcp_session.h">
+      <Filter>Header Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\asio\timer.h">
+      <Filter>Header Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\asio\udp_client.h">
+      <Filter>Header Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\asio\udp_resolver.h">
+      <Filter>Header Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\asio\udp_server.h">
+      <Filter>Header Files\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\ws\ws.h">
+      <Filter>Header Files\ws</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\ws\ws_client.h">
+      <Filter>Header Files\ws</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\ws\ws_server.h">
+      <Filter>Header Files\ws</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\ws\ws_session.h">
+      <Filter>Header Files\ws</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\ws\wss_client.h">
+      <Filter>Header Files\ws</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\ws\wss_server.h">
+      <Filter>Header Files\ws</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\ws\wss_session.h">
+      <Filter>Header Files\ws</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\http\http.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\http\http_client.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\http\http_request.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\http\http_response.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\http\http_server.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\http\http_session.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\http\https_client.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\http\https_server.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="include\server\http\https_session.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\server\asio\service.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\asio\ssl_client.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\asio\ssl_context.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\asio\ssl_server.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\asio\ssl_session.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\asio\tcp_client.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\asio\tcp_resolver.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\asio\tcp_server.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\asio\tcp_session.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\asio\timer.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\asio\udp_client.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\asio\udp_resolver.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\asio\udp_server.cpp">
+      <Filter>Source Files\asio</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\ws\ws.cpp">
+      <Filter>Source Files\ws</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\ws\ws_client.cpp">
+      <Filter>Source Files\ws</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\ws\ws_server.cpp">
+      <Filter>Source Files\ws</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\ws\ws_session.cpp">
+      <Filter>Source Files\ws</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\ws\wss_client.cpp">
+      <Filter>Source Files\ws</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\ws\wss_server.cpp">
+      <Filter>Source Files\ws</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\ws\wss_session.cpp">
+      <Filter>Source Files\ws</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\http\http_client.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\http\http_request.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\http\http_response.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\http\http_server.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\http\http_session.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\http\https_client.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\http\https_server.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="source\server\http\https_session.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\server\asio\asio.inl">
+      <Filter>Header Files\asio</Filter>
+    </None>
+    <None Include="include\server\asio\memory.inl">
+      <Filter>Header Files\asio</Filter>
+    </None>
+    <None Include="include\server\http\http_request.inl">
+      <Filter>Header Files\http</Filter>
+    </None>
+    <None Include="include\server\http\http_response.inl">
+      <Filter>Header Files\http</Filter>
+    </None>
+  </ItemGroup>
+</Project>
